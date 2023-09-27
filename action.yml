@@ -1,4 +1,4 @@
-name: 'jira-pr-ticket-status-action'
+name: 'test-jira-status'
 description: 'ensures PRs can link to JIRA card'
 author: 'relkarthi'
 inputs:
