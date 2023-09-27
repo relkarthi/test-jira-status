@@ -1,0 +1,22 @@
+name: 'jira-pr-ticket-status-action'
+description: 'ensures PRs can link to JIRA card'
+author: 'supplypike'
+inputs:
+  project:
+    required: true
+    description: 'JIRA Project'
+  ignore-author:
+    required: false
+    description: 'comma seperated list of authors to skip check for'
+  jira-host:
+    required: true
+    description: 'JIRA Domain'
+  jira-email:
+    required: true
+    description: 'JIRA Login'
+  jira-api-token:
+    required: true
+    description: 'JIRA API Token'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
