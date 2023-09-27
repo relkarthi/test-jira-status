@@ -1,6 +1,6 @@
 name: 'jira-pr-ticket-status-action'
 description: 'ensures PRs can link to JIRA card'
-author: 'supplypike'
+author: 'relkarthi'
 inputs:
   project:
     required: true
